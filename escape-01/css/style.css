@@ -1,0 +1,71 @@
+/* CRT Scanline Effect */
+.crt-scanline {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0) 50%,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.2)
+    );
+    background-size: 100% 4px;
+    animation: scanline 0.2s linear infinite;
+    pointer-events: none;
+}
+
+/* CRT Glow / Flicker */
+.crt-glow {
+    background: radial-gradient(circle, rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.4) 100%);
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+/* Vignette */
+.crt-vignette {
+    background: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.6) 100%
+    );
+}
+
+/* Text Glow Support Class */
+.text-shadow-glow {
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.7), 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+/* Custom Animations */
+@keyframes scanline {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(4px); }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Scrollbar Hiding */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+@keyframes warp {
+    from { transform: translateZ(0); opacity: 0; }
+    to { transform: translateZ(1000px); opacity: 1; }
+}
+
+.warp-star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0;
+    transform-origin: 50% 50%;
+    animation: warp 3s infinite linear;
+}
