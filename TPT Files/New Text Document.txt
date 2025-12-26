@@ -1,0 +1,65 @@
+1. The Listing Metadata
+Product Title: Equivalent Fractions Digital Escape Room | Space Mission Terminal Logic Lab
+
+Grade Levels: 3rd Grade, 4th Grade, 5th Grade
+
+Subject Area: Math, Fractions, Geometry
+
+Resource Type: Activities, Games, Fun Stuff
+
+Custom Category: Create a category called "Logic Labs: Digital Escapes"
+
+2. The "Hero" Description (SEO-Optimized)
+Copy and paste this into the description box. I have highlighted the keywords that the search engine looks for.
+
+STOP GIVING BORING WORKSHEETS! Give your students a mission they won’t forget.
+
+The Story: Orbital Station Zeta has suffered a critical system failure. As "Cadets," your students must use their knowledge of equivalent fractions to solve 10 high-stakes puzzles. Each correct answer provides a "Power Code" to be entered into a real interactive web terminal.
+
+Why Teachers Love Logic Labs:
+
+Self-Grading: The web terminal validates codes instantly. No more grading 30 papers!
+
+Zero Login Required: Students just go to the URL and play. No passwords, no hassle.
+
+High Engagement: Custom-coded animations and "Top Secret" sound effects keep students focused.
+
+Hybrid Learning: Combines critical thinking on paper (the PDF) with digital interaction.
+
+Skills Covered:
+
+Identifying equivalent fractions using visual area models.
+
+Finding missing numerators/denominators.
+
+Simplifying fractions to the simplest form.
+
+Equivalent fractions on a number line.
+
+
+Shutterstock
+What’s Inside:
+
+The Mission Terminal Link: (Hosted on GitHub Pages for 99.9% uptime).
+
+5 Printable Clue Sheets: The "Dossier" containing 10 math challenges.
+
+Teacher Quick-Start Guide: Set up the whole activity in under 2 minutes.
+
+Answer Key & Success Certificate.
+
+3. Pricing Strategy
+Base Price: $6.00
+
+Why? Most TPT escape rooms are $5.00. Because you are a web developer providing a custom-coded experience (not just a Google Form), you can charge a premium. Teachers will pay for the "cool factor" and the fact that it is self-grading.
+
+4. The "Big Three" Visuals (Required Uploads)
+Main Cover (1:1 Square): * Text: "Equivalent Fractions SPACE ESCAPE" (Huge bold font).
+
+Sub-text: "Interactive Web Terminal Included."
+
+Visual: A picture of a hand holding a tablet showing your site next to the printed PDF.
+
+The Preview PDF: * This is the most important file. Create a 3-page PDF that shows a blurred version of the clue sheets and a screenshot of the "Mission Successful" screen. Watermark everything so they can't just screenshot it for free.
+
+Video Preview: * Record a 30-second screen capture of you typing a code into your site and the "Warp Drive Active" animation playing. This sells the product faster than any text.
