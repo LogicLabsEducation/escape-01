@@ -93,8 +93,15 @@
                 <p class="text-xs md:text-sm text-terminal-dim">System Status: <span id="system-status">ONLINE</span>
                 </p>
             </div>
-            <div class="flex items-center gap-4">
-                <button id="mute-btn" class="hover:text-white transition-colors">[MUTE]</button>
+            <div class="flex items-center gap-6">
+                <!-- System Health Bar -->
+                <div class="flex flex-col items-end">
+                    <span class="text-[10px] md:text-xs text-terminal-dim mb-1 tracking-wider">SYSTEM HEALTH</span>
+                    <div class="w-24 md:w-32 h-3 md:h-4 border border-terminal-green p-[2px]">
+                        <div id="progress-bar" class="h-full bg-terminal-green w-0 transition-all duration-500 ease-in-out shadow-[0_0_10px_#0f0]"></div>
+                    </div>
+                </div>
+                <button id="mute-btn" class="hover:text-white transition-colors text-xs md:text-sm">[MUTE]</button>
             </div>
         </header>
 

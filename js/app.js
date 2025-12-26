@@ -116,7 +116,9 @@ const dom = {
     missionName: document.getElementById('mission-name'),
     systemStatus: document.getElementById('system-status'),
     resetBtn: document.getElementById('reset-btn'),
-    muteBtn: document.getElementById('mute-btn')
+    resetBtn: document.getElementById('reset-btn'),
+    muteBtn: document.getElementById('mute-btn'),
+    progressBar: document.getElementById('progress-bar')
 };
 
 // --- Terminal Logic ---
@@ -176,7 +178,12 @@ function initGame() {
 
         // Start Game Focus
         dom.input.focus();
+        // Start Game Focus
+        dom.input.focus();
     });
+
+    // Initial UI Update
+    updateProgressBar(state);
 
     // Event Listeners
     dom.input.addEventListener('keydown', handleInput);
@@ -276,6 +283,7 @@ function handleSuccess(state, puzzle) {
             renderCurrentLevel(state);
         }, 800);
     }
+    updateProgressBar(state);
 }
 
 function handleFailure(state, puzzle) {
@@ -331,6 +339,16 @@ function createWarpStars() {
         star.style.animationDelay = `${delay}s`;
 
         dom.warpField.appendChild(star);
+    }
+}
+
+function updateProgressBar(state) {
+    const total = missionConfig.puzzles.length;
+    const current = state.currentPuzzleIndex;
+    const percent = Math.min(100, Math.round((current / total) * 100));
+
+    if (dom.progressBar) {
+        dom.progressBar.style.width = `${percent}%`;
     }
 }
 
